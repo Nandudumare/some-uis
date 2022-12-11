@@ -1,0 +1,126 @@
+$width:90%;
+$color:#5955b3;
+$weight:700;
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar{
+    display: flex;
+    flex{
+        direction: row;
+    }
+    justify-content: space-between;
+    width:$width;
+    height:50px;
+    margin: auto;
+    margin-top:2rem;
+
+    div:nth-child(1){
+        height: 50px;
+        width: 150px;
+        object-fit: cover;
+        margin-top: 0.25rem;
+        img{
+            object-fit: cover;
+            height: 80%;
+            width: 80%;
+        }
+    }
+
+    div:nth-child(2){
+        ul{
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+            margin-right: 25rem;
+            li:nth-child(1){
+                color: black;
+            }
+            li{
+                list-style: none;
+                margin-top: 0.8rem;
+                font-size: 1.1rem;
+                cursor: pointer;
+                color: grey;
+                font-weight: $weight;
+            }
+        }
+    }
+
+    div:nth-child(3){
+        button{
+            background-color: $color;
+            color: white;
+            padding: 0.7rem 1.2rem;
+            margin-top: 0.2rem;
+            border: none;
+            border-radius: 10px;
+            font-weight: $weight;
+        }
+    }
+}
+
+section > div{
+    display: flex;
+    flex-direction: row;
+    width: $width;
+    margin: auto;
+    margin-top: 2.5rem;
+
+    div{
+        height: 100%;
+        width: 50%;
+    }
+
+    div:nth-child(1){
+        p:nth-child(1){
+            font-size: 3.3rem;
+            width: 80%;
+            font-weight: $weight;
+            margin-top:5rem;
+            span{
+                color: $color;
+            }
+        }
+        p:nth-child(2){
+            color: grey;
+            width: 60%;
+            margin-top: 1rem;
+            margin-left: 0.5rem;
+        }
+        button{
+            background-color: $color;
+            color: white;
+            padding: 0.7rem 3rem;
+            margin-top: 0.2rem;
+            border: none;
+            margin-top: 2.5rem;
+            border-radius: 10px;
+            font-weight: $weight;
+            font-size: 1.2rem;
+        }
+    }
+
+
+
+
+
+
+
+    div:nth-child(2){
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    
+}
