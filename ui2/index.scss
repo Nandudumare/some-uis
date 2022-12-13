@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 100%;
+    background-color:black;
+    justify-content:space-between;
+    align-items:center;
+
+    .logo-navs{
+        display: flex;
+        flex-direction: row;
+        width: 65%;
+        justify-content:space-around;
+
+        figure{
+            height:30px;
+            width: 150px;
+            object-fit: cover;
+            border-right: 2px solid white;
+            img{
+                height: 110%;
+                width: 80%;
+                object-fit: cover;
+            }
+        }
+
+        nav{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            align-items: center;
+            justify-content:center;
+            gap: 2.5rem;
+            margin-right: 8rem;
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+
+    .btn{
+        button{
+            background-color: #ba0bf4;
+            padding: 0.5rem 1.5rem; 
+            border-radius:5px;
+            text-align: center;
+            margin-right: 1rem;
+        }
+    }
+}
+
+.bg{
+    height: 90vh;
+    width: 100vw;
+    background-image: url("https://aquamarine-biscotti-4cb633.netlify.app/assets/bg.png");
+    background-size: 68%;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: left bottom;
+    div:nth-child(1){
+        padding-top:5rem;
+        p:nth-child(1){
+            font-size:4rem;
+            width: 50%;
+            text-align: center;
+            margin: auto;
+            font-weight: bolder;
+            line-height:4rem;
+        }
+        p:nth-child(2){
+            font-size:1.5rem;
+            text-align: center;
+            margin: auto;
+        }
+    }
+    
+    div:nth-child(2){
+        margin: auto;
+        width: 20%;
+        button{
+            background-color: #ba0bf4;
+            padding: 1rem 2rem; 
+            border-radius:5px;
+            text-align: center;
+            margin: auto;
+            border: none;
+            text-align: center;
+            margin-top:1rem;
+            font-size:1.05rem;
+        }
+    }
+    
+}

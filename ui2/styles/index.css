@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  width: 100%;
+  background-color: #000;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .logo-navs {
+  display: flex;
+  flex-direction: row;
+  width: 65%;
+  justify-content: space-around;
+}
+.navbar .logo-navs figure {
+  height: 30px;
+  width: 150px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-right: 2px solid #fff;
+}
+.navbar .logo-navs figure img {
+  height: 110%;
+  width: 80%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.navbar .logo-navs nav {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-right: 8rem;
+}
+.navbar .logo-navs nav a {
+  text-decoration: none;
+}
+.navbar .btn button {
+  background-color: #ba0bf4;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  text-align: center;
+  margin-right: 1rem;
+}
+.bg {
+  height: 90vh;
+  width: 100vw;
+  background-image: url("https://aquamarine-biscotti-4cb633.netlify.app/assets/bg.png");
+  background-size: 68%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: left bottom;
+}
+.bg div:nth-child(1) {
+  padding-top: 5rem;
+}
+.bg div:nth-child(1) p:nth-child(1) {
+  font-size: 4rem;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  font-weight: bolder;
+  line-height: 4rem;
+}
+.bg div:nth-child(1) p:nth-child(2) {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: auto;
+}
+.bg div:nth-child(2) {
+  margin: auto;
+  width: 20%;
+}
+.bg div:nth-child(2) button {
+  background-color: #ba0bf4;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  text-align: center;
+  margin: auto;
+  border: none;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.05rem;
+} /*# sourceMappingURL=index.css.map */
